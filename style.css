@@ -44,6 +44,8 @@ img{
 }
 .d-flex{
     display: flex;
+}
+.align-items-center{
     align-items: center;
 }
 .flex-row{
@@ -204,4 +206,126 @@ header{
     font-size: 16px;
     line-height: 19px;
     color: #808080;
+}
+/* Tour Packages */
+.tpText {
+    align-items: flex-start;
+    width: 57%;
+    margin-bottom: 80px;
+}
+.tpNavigation{
+    margin-left: auto;
+    gap: 12px;
+}
+/* Carousel */
+.tourPackages{
+    margin-bottom: 120px;
+    gap: 20px;
+}
+.carousel{
+    gap: 20px;
+}
+.card{
+    max-width: 370px;
+    align-items: flex-start;
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 0px 16px 16px;
+
+}
+.card-details{
+    width: 80%;
+    margin: 30px auto;
+    gap: 10px;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+}
+.car_title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 132%;
+}
+.car_place{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.rating{
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-semibold);
+    color: #FFBD39;
+    gap: 2px;
+    background: rgba(255, 189, 57, 0.12);
+    border-radius: 38px;
+    max-width: fit-content;
+    padding: 4px 6px;
+}
+.price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 132%;
+    color: #E61C5D;
+}
+.tour {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132%;
+    color: #808080;
+}
+/* testimonial */
+.testimonial{
+    margin: 120px auto;
+}
+.testCarousel{
+    align-items: center;
+}
+.testCards{
+    gap: 32px;
+    align-items: center;
+}
+.testTitle{
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 60%;
+    margin: 0 auto 80px;
+
+}
+.testTitle>h3,
+.testTitle>h2 {
+/* align-self: center; */
+text-align: center;
+}
+.testCard{
+    padding: 45px 40px;
+    max-width: 300px;
+    /* background-color: yellow; */
+    border: 1px solid #FAFAFA;  
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;   
+}
+.testCard > *{
+    margin: auto;
+    text-align: center;
+}
+.cardName{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 12px auto 4px;
+}
+.testCard-title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 4px;
+}
+.testStars{
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.testStars{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 133%;
 }
