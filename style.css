@@ -329,3 +329,28 @@ text-align: center;
     font-size: 14px;
     line-height: 133%;
 }
+.footer{
+    gap: 110px;
+}
+.column2 > *{
+    margin-top: 18px;
+}
+.email{
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+    border-radius: 55px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.email>p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%; 
+    color: #808080;
+}
+.footer_social_icons{
+    gap: 12px;
+}
+.flogo{
+    width: 55px;
+}
