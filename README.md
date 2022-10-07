@@ -1,5 +1,5 @@
 # Travel-Landing-Page
-Stack Used: HTML, CSS,Vanilla JS
+Stack Used: HTML, CSS
 # Website Demo
 
 [Opens in new tab](https://external.ink?to=/daavagroup.in)
