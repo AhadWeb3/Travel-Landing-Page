@@ -341,6 +341,7 @@ header {
 
 .testCarousel {
     align-items: center;
+    justify-content: center;
 }
 
 .testCards {
@@ -544,4 +545,10 @@ header {
 .extraCards{
     margin-bottom: 120px;
     margin-top: -35px;
+}
+.tpNavigation,
+.leftArrow,
+.rightArrow
+{
+    display: none;
 }
