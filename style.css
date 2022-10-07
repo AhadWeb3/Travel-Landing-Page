@@ -219,18 +219,23 @@ header{
 }
 /* Carousel */
 .tourPackages{
+
     margin-bottom: 120px;
     gap: 20px;
 }
 .carousel{
-    gap: 20px;
+    /* max-width: 120%; */
+    overflow: hidden;
 }
 .card{
-    max-width: 370px;
-    align-items: flex-start;
+    display: inline-block;
+    max-width: 268px;
+    /* align-items: flex-start; */
     box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
     border-radius: 0px 0px 16px 16px;
-
+}
+.card + .card{
+    margin-left: 20px;
 }
 .card-details{
     width: 80%;
@@ -330,7 +335,8 @@ text-align: center;
     line-height: 133%;
 }
 .footer{
-    gap: 110px;
+    gap: 60px;
+    margin-bottom: 120px;
 }
 .column2 > *{
     margin-top: 18px;
@@ -353,4 +359,33 @@ text-align: center;
 }
 .flogo{
     width: 55px;
+}
+.foot-c2{
+    gap: 40px;
+}
+.extName{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 132%;
+}
+
+.extPrice{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 132%;
+     color: #E61C5D;
+    
+}
+.extDays{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132%;
+    color: #808080;   
+}
+.e-price{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    max-width: fit-content;
+    margin-top: 8px;
 }
